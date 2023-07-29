@@ -1,0 +1,5 @@
+SELECT category, COUNT(*) 
+FROM datos
+GROUP BY category
+ORDER BY COUNT DESC
+LIMIT 1;
